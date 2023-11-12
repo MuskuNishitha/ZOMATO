@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="./zomato.css">
+    <link rel="icon" type="image" href="data:image/png;base64,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" 
+    >
+</head>
+<body>
+    <header>
+    <div>
+    <img src="./zoomato imag.avif" height="700" width="2000">
+    </div>
+    <div>
+    <ul>
+       <nav> <a href="./getapp.html" target="_blank" class="get"><li id="get">Get the app</li></a>
+
+    <a href=""><li class="get" id="invester">Investor Relations</li></a>
+       <a href=""><li id="add" class="get">Add restaurent</li></a>
+        <a href="./login.html" target="_blank" class="get"> <li id="login">Login in</li></a>
+        <a href="./singnup.html" target="_blank" class="get"><li id="singup">Sing up</li></a>
+        </nav>
+    </ul>
+    </div>
+    <h1 id="zo">Zomato</h1>
+    <h2 id="dis">Discover the best food & drinks in Delhi NCR</h2>
+    <div id="main2">
+      <img src="./location.jpeg" height="20" width="20">
+      <span>Black B, jaypee greens,|</span>
+      <select id="sel">
+        <option></option>
+      </select>
+      <img src="./search.png" height="20px" width="20px">
+      <span>Search for restaturant,cursine or a dish</span>
+    </div>
+    </header>
+<main><div id="outerdiv">
+    <div id="firstdiv">
+        <img class="d" src="./zomato1.avif" height="200" width="300">
+        <div id=inner1> <h3>Order online</h3>
+        <p>Stay home and order to you doorstep</p>
+        </div>
+    </div>
+    <div id="seconddiv">
+        <img class="d" src="./dinning" height="200px" width="300">
+        <div><h3>Dinning</h3>
+        <p>view the city's favorite dining venures</p>
+        </div>
+    </div>
+    <div id="thirddiv">
+        <img class="d" src="./cubs" height="200px" width="300px">
+        <div><h3>Nightlife and clubs</h3>
+        <p>Explore the city's top nightlife outlets</p>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="Collections">
+    <h1>Collections</h1>
+    <p id="p">Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</p>
+</div>
+<div id="src">
+    <img class="s" src="./newwwly opened" height="400" width="300">
+    <img  class="s" src="./best" height="400" width="300">
+    <img  class="s" src="./finest" height="400" width="300">
+    <img class="s" src="./train" height="400" width="300">
+</div >
+<p id="secondp" style="font-size: xx-large;">Popular localities in and around Delhi <span style="font-weight:bold;">NCR</span></p>
+<div id="main">
+<div class="div1"><input id="in1" type="text" name="place" value="Connaught Place">
+<input type="text" name="garden" value="Sector 29">
+<input type="text" name="kondapur" value="Kondapur"></div><br>
+<div class="div1"><input type="text" name="sector" Value="Sector 18,Noida">
+<input type="text" name="Rajouri Garder" value="Rajouri Garder">
+<input type="text" name="saket"  value="saket"></div><br>
+<div class="div1"><input type="text" name="city" value="DLF CYBER City">
+<input type="text" name="golf" value="Golf Course Road">
+<input type="text" name="phase" value="Dlf phase4"></div><br>
+<div class="div1"><input type="text" name="hills" value="Jubilee Hills">
+<input type="text" name="bowli" value="Gachiibowli">
+<input type="text" name="hills" value="banjara Hills"></div><br>
+<div class="div1"><input type="text" names="hitches" value="Hitesh">
+<input type="text" name="Madhapur" value="Madhapur">
+<input type="text" name="pur" value="Hitech City"></div><br>
+</div>
+<br><br>
+<div id="lastdiv">
+<div id="out"><img src="./phone.avif" height="300" width="300"></div>
+<div id="in">
+<h1>Get the Zomato App</h1>
+<p style="font-size:large;">We will send you a link open it on your phone to downloard<br>the app</p>
+<input class="radio" type="radio" name="number" checked>Email
+<input  class="radio"type="radio" name="number">phone<br><br>
+<input id="one" type="email" name="email" placeholder="Email">
+<button id="red"><input id="red1" type="submit" name="link" value="Share App Link"></button>
+   <p>Downloard app from</p>
+   <button class="blue"><img src="./googlepay store" height="30"width="150" ></button>
+
+   <button class="blue"><img src="./app store" height="30" width="150"></button>
+   </div>
+   
+</div>
+<br><br>
+<h3 id="ex">Explore Options near me</h3>
+<section>
+<select name="near me">
+    <option>Popular cuisines near me</option>
+</select>
+<select>
+    <option>Popular restaurant types near me</option>
+</select>
+<select>
+    <option>Top Restaurant Chains</option>
+</select>
+<select>
+    <option>Cities We Deliver To</option>
+</select>
+</section>
+</div>
+</main>
+<br><br>
+
+<footer>
+  <div id="footerdiv">
+  <h3 id="zooo">zomato</h3>
+  <div id="sector"> 
+    <div>
+      <img src="./flag.png" height="20px" width="20px">
+ <select name="flags" class="cl">
+    <option class="english">India</option>
+    <option value="austrial">Austrial</option>
+    <option>chennai</option>
+  </select>
+  </div>
+  <div>
+    <img src="./" height="20px" width="20px">
+  <select name="lng" class="cl">
+    <option class="english">English</option>
+    <option value="telgu">Telugu</option>
+    <option value="hindhi">Hindhi</option>
+    <option value="marati">marati</option>
+  </select>
+  </div>
+  </div>
+  <br><br>
+  <div id="maindiv">
+  <div id="divvv1">
+    <h4>ABOUT ZOMATO</h4>
+    <a>Who We Are</a><br>
+    <a>Blog</a><br>
+    <a>Work With Us</a><br>
+    <a>investor Relations</a><br>
+    <a> Report Fraud</a><br>
+    <a>Contact Us</a><br>
+  </div>
+  <div id="divvv2">
+    <h4>ZOMAVERSE</h4>
+    <a>Zomato</a><br>
+    <a>Blinkit</a><br>
+    <a>Feeding india</a><br>
+    <a>Hyperpure</a><br>
+    <a>Zomaland</a><br>
+  </div>
+  <div id="divvv2">
+    <h4>FOR RESTAURANTS</h4>
+    <a>Partner With Us</a><br>
+    <a>Apps For You</a><br>
+    <br>
+    <h4>FOR ENTERPRISES</h4>
+    <a>Zomato For ENterrprise</a><br>
+  </div>
+  <div id="divvv2">
+    <h4>LEARN MORE</h4>
+    <a>Privacy</a><br>
+    <a>Security</a><br>
+    <a>Terms</a><br>
+    <a>Sitemap</a><br>
+  </div>
+  <div id="divvv2">
+    <h4>SOCIAL LINKS</h4>
+   
+    <a class="a" href="//https:www.linkdin.com" target="-blank"><img class="i" src="./linkdin" alt="" height="30" width="30"></a>
+    <a class="a" href=""><img class="i" src="./instagram" alt="" height="30" width="30"></a>
+    <a class="a" href=""><img class="i" src="./twitter" alt="" height="30" width="30"></a>
+    <a class="a" href=""><img  class="i" src="./youtube" alt="" height="30" width="30"></a>
+    <a  class="a" href=""><img class="i" src="./facebook" alt="" height="30" width="30"></a>
+    <button class="button"><img src="./app store"></button>
+    <button class="button"><img  src="./googlepay store"></button>
+
+  </div>
+  </div>
+  <div id="hrp">
+  <hr id="hr">
+  <p id="by">By continuring past this page.you agree to out Terms of Service,cookie Policy policy and content policies.All trademarks arepropertiez of their respective  owners,2008
+    2023 &copy; Zomato &trade; Ltd.All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

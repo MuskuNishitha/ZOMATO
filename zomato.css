@@ -1,0 +1,339 @@
+.get{
+    display:inline-block;
+    margin:auto;
+    top:30px;
+    position: absolute;
+    color: white;
+    padding: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.cha{
+    font-size: 30px;
+}
+#invester{
+    padding-left: 950px;
+    font-size: 25px;
+}
+#get{
+    padding-left: 30px;
+    font-size: 25px;
+}
+#add{
+    padding-left: 1200px;
+    font-size: 25px;
+}
+#login{
+    padding-left: 1400px;
+    font-size: 25px;
+}
+#singup{
+    padding-left: 1560px;
+    font-size: 25px;
+}
+#zo{
+    color: antiquewhite;
+    top:150px;
+    position: absolute;
+    text-align: center;
+    padding-left: 780px;
+    margin: 10px;
+    font-size: 100px;
+
+}
+#dis{
+    color: antiquewhite;
+    top:200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 650px;
+    margin: 70px;
+}
+#outerdiv{
+    height: 350px;
+    width:1000px;
+   /* border: 1px solid black;*/
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+#firstdiv:hover{
+    width:660px;
+    border: 1px;
+    size: 500px;
+
+}
+#seconddiv:hover{
+    width:660px;
+    border: 1px;
+    size: 500px;
+}
+#thirddiv:hover{
+    width:660px;
+    border: 1px;
+    size: 500px;
+}
+
+#firstdiv{
+    border: 1px solid rgb(233, 228, 228);
+    width: 400px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 12px;
+}
+#seconddiv{
+    border: 1px solid white;
+    width: 400px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 12px;
+
+}
+#thirddiv{
+    border: 1px solid rgb(252, 248, 248);
+    width: 400px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 12px;
+
+}
+.d{
+    border-radius: 10px;
+}
+#heee{
+   border:1px solid rgb(14, 4, 4);
+   background-color: white;
+   width: 500px;
+   height: 50px;
+   position: absolute;
+   top:350px;
+   display: flex;
+text-align: center;
+margin: auto;
+background-color: white;
+margin-left: 600px;
+padding-left: 0px;
+justify-content: center;
+
+}
+#send{
+    display:flex;
+}
+#send1{
+    display: flex;
+}
+#src{
+    padding: 10px;
+    padding-left: 350px;
+}
+#Collections{
+    padding: 30px;
+    padding-left: 380px;
+}
+#p{
+    font-size: x-large;
+}
+.s{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:0px 0px 3px black;
+    margin: 5px;
+
+}
+#secondp{
+    padding-left: 350px;
+}
+.div1{
+    text-align: center;
+}
+#main input{
+    width: 350px;
+    height:50px;
+    margin: 10px;
+    color: black;
+    border-radius: 5px;
+
+}
+#lastdiv{
+    display: flex;
+    padding-left: 500px;
+}
+#in{
+    padding-top: 50px;
+}
+#red{
+    background-color: crimson;
+    border: 1px solid  crimson;
+}
+#red1{
+    background-color:crimson;
+    border: 1px solid  crimson;
+    color: white;
+}
+#red1:hover{
+    background-color:crimson;
+    border: 1px solid  crimson;
+    color: white;
+}
+#one{
+    width:300px;
+    height:35px;
+    text-indent: 10px;
+}
+.blue{
+    background-color: midnightblue;
+    margin: 5px;}
+input:checked{
+    accent-color:crimson;
+}
+.br{
+ border: 1px solid white;
+ background-color: white;
+
+}
+section select{
+    display: flex;
+    width: 950px;
+    height:60px;
+    justify-content: center;
+    margin: 30px;
+    margin-left: 400px;
+    background-color: rgb(250, 248, 248);
+    font-size: larger;
+    border-radius: 5px;
+}
+#ex{
+    font-size: x-large;
+    padding-left: 350px;
+}
+.a{
+    position: relative;
+    border-radius:20px;
+    padding-right: 10px;
+    margin:0px;
+    display:inline-block;
+    border-radius: 15px;
+
+}
+.button{
+    margin-top: 30px ;
+
+    display: block;
+}
+#maindiv{
+    height:600px;
+    width: 1800px;
+    /*border: 1px solid gray;*/
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    padding-left: 250px;
+    background-color: rgb(250, 248, 248);
+}
+#footerdiv{
+    background-color: rgb(250, 248, 248);
+}
+#divvv1{
+   /* border: 1px solid black;*/
+    width:280px;
+    margin: 20px;
+    padding: 10px;
+}
+#divvv2{
+   /* border: 1px solid black;*/
+    width:280px;
+    margin: 20px;
+}
+#divvv3{
+   /* border: 1px solid black;*/
+    width:280px;
+    margin: 20px;
+}
+#divvv4{
+   /* border: 1px solid black;*/
+    width:280px;
+    margin: 20px;
+}
+.i{
+margin: -20px;
+display: inline-block;
+display: flex;
+padding-left: 40px;
+border-radius:15px;
+
+}
+#zooo{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 350px;
+}
+#sector{
+    padding-left: 1450px;
+    margin-top: -40px;
+    height: 15px;
+    display: flex;
+}
+.english{
+    height: 15px;
+}
+#lo{
+    border: 1px solid white;
+}
+#se{
+    border: 1px solid white;
+}
+.button{
+    background-color: rgb(6, 6, 63);
+    border-radius: 5px;
+    margin-top: -50px;
+    margin: 6px;
+}
+#footerdiv h4{
+    letter-spacing: 1px;
+}
+#hrp{
+    margin-top: -200px;
+}
+#by{
+  font-size: larger;
+   padding-left: 250px;
+    word-spacing: 2px;
+    font-style: normal;
+    font-size: x-large;
+}
+#hr{
+    width: 1600px;
+    padding-left: 150px;
+
+}
+#maindiv a:hover{
+    color:rgb(105, 105,105)
+}
+#maindiv a{
+    font-size: 20px;
+}
+#main2{
+    height:40px;
+    width: 600px;
+    display: flex;
+    border: 1px solid white;
+    top:200px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    margin-left: 650px;
+    margin-top: 140px;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#sel{
+    background-color: white;
+}
+.cl{
+    width: 100px;
+    height: 30px;
+}
